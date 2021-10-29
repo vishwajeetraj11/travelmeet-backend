@@ -8,13 +8,6 @@ const threadSchema = mongoose.Schema(
         ref: 'User',
         required: true,
       },
-    //   stories: [
-    //       {
-    //       type: mongoose.Schema.Types.ObjectId,
-    //       ref: 'Story',
-    //       required: true
-    //     }
-    // ]
   },
   {
     toJSON: { virtuals: true },
