@@ -31,6 +31,10 @@ const userSchema = mongoose.Schema(
     photo: {
       type: String,
     },
+    profileComplete: {
+      type: Boolean,
+      default: false
+    },
     tenant: {
       type: String,
       select: false,
