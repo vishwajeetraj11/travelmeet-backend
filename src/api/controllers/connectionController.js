@@ -1,4 +1,4 @@
-import { Connection } from '../../models/Connection';
+import { Connection } from '../../models/Connection.js';
 // import { User } from '../../models/User.js';
 import { AppError } from '../../utils/AppError.js';
 import { catchAsync } from '../../utils/catchAsync.js';

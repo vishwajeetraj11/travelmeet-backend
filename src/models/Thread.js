@@ -8,6 +8,27 @@ const threadSchema = mongoose.Schema(
         ref: 'User',
         required: true,
       },
+      stories: [
+        {
+          description: {
+            type: String,
+            required: false,
+          },
+          title: {
+              type: String,
+              required: true,
+          },
+          photo: {
+            type: String,
+          },
+          startDate: {
+          default: Date
+          },
+          endDate: {
+            type: Date,
+          }
+        }
+      ]
   },
   {
     toJSON: { virtuals: true },

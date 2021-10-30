@@ -31,7 +31,7 @@ const userSchema = mongoose.Schema(
     photo: {
       type: String,
     },
-    profileComplete: {
+    profile_complete: {
       type: Boolean,
       default: false
     },
